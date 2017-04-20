@@ -1,0 +1,289 @@
+*{margin: 0;padding: 0;}
+.bigbox{
+	width: 100%;
+	background:red;
+	height: auto;
+}
+/*导航样式部分*/
+.header{
+	width: 100%;
+	height: 80px;
+	background:#07cbc9;
+	
+
+}
+.header img{
+	float: left;
+	margin: 12px 0 0 10%;
+}
+.header ul{
+	float: right;
+	list-style: none;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bolder;
+	font-family: "微软雅黑";
+}
+.header ul li{
+	float: left;
+	width: 80px;
+	height: 74px;
+	line-height: 80px;
+	text-align: center;
+	margin-right: 30px;
+
+}
+.header ul li:hover{
+	border: 3px solid #FFF;
+	cursor: pointer; //鼠标经过变成小手
+}
+/*导航样式结束*/
+
+.banner,.banner img,.blackback{
+	width: 100%;
+	height: 800px;
+
+}
+.blackback{
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+	top: 80px;left: 0;
+}
+.banner_form{
+	position: absolute;
+	top: 300px;left: 38%;
+}
+.banner_form form input,
+.banner_form form textarea,
+.banner_form form button
+{
+	background: rgba(0,0,0,0);
+	color: #C0C0C0;
+	font-family: "微软雅黑";
+	border:1px solid #C0C0C0;
+}
+.banner_form form input{
+	width: 435px;
+	height: 30px;
+	padding: 5px;
+	margin-top: 15px;
+}
+.banner_form form textarea{
+	margin-top: 15px;
+	padding: 5px;
+	width: 435px;
+	height: 100px;
+}
+.banner_form form button{
+	width: 140px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 140px;
+}
+/*banner样式结束*/
+.about{
+	width: 100%;
+	height:auto;
+	background: #FFF;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	zoom:1;
+}
+.about-top{
+	padding-top: 80px;
+	width:100%;
+	text-align: center;
+}
+.about-top h1{
+	font-size: 46px;
+}
+.about-top hr{
+	width: 35px;
+	height: 3px;
+	background: #07cbc9;
+	border: none;
+	margin: 10px auto;
+}
+.about-top p{
+	color: #A0A0A0;
+	line-height: 25px;
+	margin: 10px 0;
+}
+.about-bottom{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom:1;
+	margin-top: 20px;
+}
+
+.about-left{
+	width: 30%;
+	float: left;
+}
+.about-left p{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	right: -20px;
+}
+.left-border{
+	border:1px solid #A0A0A0;
+	width: 85%;
+	height: 180px;
+	padding: 20px;
+	background:#FFF;
+	opacity: 0.5;
+	margin-top: 20px;
+	position: relative;
+	right: -140px;
+	line-height: 25px;
+}
+.left-border button{
+	width:80px; 
+	height: 40px;
+	margin-top: 15px;
+	color: #FFF;
+	background: #000;
+	border: none;
+}
+
+.about-middle{
+	float: left;
+	width: 45%;
+	height: 400px;
+
+}
+.about-middle img{
+	width: 550px;
+	height: 360px;
+}
+.about-right{
+	width: 20%;
+	float: left;
+}
+.right-text{
+	width: 100%;
+	border: 1px solid #07cbc9;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.right-text p{
+	font-size: 30px;
+	font-weight:bolder;
+	padding-top: 30px;
+}
+.right-text hr{
+	width: 40px;
+	height: 2px;
+	background: #07cbc9;
+	border: none;
+	margin:10px auto;
+}
+.right-text span{
+	font-size: 20px;
+}
+/*八个部位样式开始*/
+.about-eight{
+	margin-top: 50px;
+}
+.eight-pic1,.eight-text{
+	width: 25%;
+	height: 400px;
+}
+.eight-pic1 img{
+	width: 100%;
+	height: 400px;
+}
+.triangle{
+	width: 0;height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right:25px solid #07cbc9;
+	margin-top: 180px;margin-left: -25px;
+}
+.eight-text{
+	background: #07cbc9;
+}
+.eight-pic1,.triangle,.eight-text{
+	float: left;
+}
+.eight-box{
+	margin:30px 45px;
+}
+.eight-p1{
+	font-size: 30px;
+	color: #FFF;
+}
+.eight-p2{
+	font-size: 18px;
+	color: #FFF;
+	margin-top: 10px;
+}
+.eight-p3{
+	font-size: 16px;
+	color: #DDD;
+	margin-top: 15px;
+}
+.eight-box button{
+	width: 100px;
+	height: 40px;
+	background: #000;
+	color: #FFF;
+	border:none;
+	margin:50px 0 0 35%;
+}
+.triangle-bottom{
+	width: 0;height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left:25px solid #07cbc9;
+	margin-top: 180px;margin-right: -25px;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+/*ABOUT样式结束*/
+.gallery{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	font-family: "微软雅黑";
+	padding-bottom: 50px;
+}
+.gallery-box{
+	width: 70%;
+	height:auto;
+	margin:0 auto;
+	overflow: hidden;
+	zoom:1;
+}
+.gallery-six{
+	width: 30%;
+	background: #DDD;
+	float: left;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+.gallery-six img{
+	width: 100%;
+}
+.gallery-six p{
+	width: 95%;
+	color: #FFF;
+	background: #000;padding:6% 0 5% 5%;
+	margin-top: -2%;
+}
+/*Gallery区样式结束*/
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #07cbc9;
+	color: #FFF;
+	text-align: center;
+	line-height: 60px;
+	font-family: "微软雅黑";
+}
+

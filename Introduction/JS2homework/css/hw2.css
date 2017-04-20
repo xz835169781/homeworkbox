@@ -1,0 +1,61 @@
+*{margin: 0;padding: 0;}
+body{
+	font-family: " Microsoft YaHei";
+}
+.bigBox{
+	width: 1200px;
+	height: 520px;
+	margin:30px auto;
+	overflow: hidden;
+}
+/*导航样式*/
+.header{
+	width: 1200px;
+	height: 60px;
+	overflow: hidden;
+}
+.header span{
+	display:inline-block;
+	color: #666;
+	font-size: 18px;
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	background-color:#FFF;
+}
+.header span.bgcolor{
+	background-color: #FFCC00;
+}
+/*图片样式*/
+.picbox{
+	width: 1200px;
+	height: 460px;
+	overflow: hidden;
+}
+.picbox div{
+	width: 1200px;
+	height: 460px;
+	background-repeat: no-repeat;
+	float: left;
+	display: none;
+	cursor: pointer;
+}
+.picbox div.blockpic{
+	display: block;
+}
+.pic1{
+	background-image: url(../images/1.jpg);
+}
+.pic2{
+	background-image: url(../images/3.jpg);
+}
+.pic3{
+	background-image: url(../images/4.jpg);
+}
+.pic4{
+	background-image: url(../images/5.jpg);
+}
