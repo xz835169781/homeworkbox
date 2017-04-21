@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0;}
+body{
+	font-family:"楷体"; 
+	margin: 1em 10%;
+	background-color: #ccc;
+}
+#place{
+	width: 1200px;
+	height: 600px;
+	border: 1px solid #CCC;
+	box-shadow:15px 10px 30px 5px #000;
+	overflow: hidden;
+	border-radius: 20px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: orange;
+}
+ul li{
+	list-style: none;
+	float: left;
+	padding: 1em;
+}
+ul li img{
+	width: 100px;
+	height: 60px;
+}
+#description{
+	color: orange;
+	font-weight: bold;
+	margin-top: 30px;
+}
