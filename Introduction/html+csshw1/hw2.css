@@ -9,8 +9,8 @@
 	width: 100%;
 	height: 80px;
 	background:#07cbc9;
-	
-
+	position: fixed;
+	z-index: 2;
 }
 .header img{
 	float: left;
@@ -38,6 +38,9 @@
 	cursor: pointer; //鼠标经过变成小手
 }
 /*导航样式结束*/
+.banner{
+	position: relative;
+}
 
 .banner,.banner img,.blackback{
 	width: 100%;
@@ -48,7 +51,7 @@
 	background: #000;
 	opacity: 0.5;
 	position: absolute;
-	top: 80px;left: 0;
+	top: 0px;left: 0;
 }
 .banner_form{
 	position: absolute;
