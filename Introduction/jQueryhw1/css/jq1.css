@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bigbox{
+	width: 1200px;
+	height: 460px;
+	background-color: #bbb;
+	margin:50px auto;
+	border: 10px solid #bbb;
+	position: relative;
+}
+/*图片样式*/
+.picbox{
+	width: 1200px;
+	height: 460px;
+	overflow: hidden;
+}
+.picbox img{
+	width: 1200px;
+	height: 460px;
+	display: none;
+	cursor: pointer;
+}
+.picbox .putpic{
+	display: block;
+}
+/*小按钮样式*/
+.dots{
+	position: absolute;
+	right:30px;
+	bottom: 30px;
+}
+.dots span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(7, 17, 27, 0.4);
+	margin-left: 8px;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+	cursor: pointer;
+}
+.dots span.active{
+	box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+	background-color: #fff;
+}
+/*选项卡样式*/
+.button{
+	position: absolute;
+	width: 40px;
+	height: 80px;
+}
+.prev{
+	background: url(../images/pre2.png) center center no-repeat;
+	top: 50%;
+	margin-top: -40px;
+
+}
+.next{
+	background: url(../images/pre.png) center center no-repeat;
+	right: 0px;
+	top: 50%;
+	margin-top: -40px;
+}
+.button:hover{
+	background-color:#bbb;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
