@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+	border: none;
+}
+body{
+	background:#ddd;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color:#444;
+}
+a:hover{
+	color: #999;
+}
+/*Wrap*/
+#wrap{
+	width: auto;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+}
+
+#wrap>div{
+	width: 380px;
+	box-sizing: border-box;
+	height: auto;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+#wrap>div>img{
+	width: 100%;
+}
+#wrap>div>a{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+}
